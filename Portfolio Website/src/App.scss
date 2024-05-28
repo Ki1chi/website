@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 .bg-image {
@@ -9,19 +8,54 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(assets/pexels-akira-kawamura-21448-96810.jpg);
+    background-image: url('assets/su-san-lee-E_eWwM29wfU-unsplash\(2\).jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(50%);
+    filter: brightness(55%);
 }
 
+.main-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
 .main-text {
+    color: rgb(219, 219, 219);
+}
+.name {
     color: white;
-    background: red;
-
 }
 
-nav {
+.nav-container{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.logo-container {
+    width: 55vw;
+}
+.logo {
+    width: 45px;
+    height: 45px;
+    margin: 15px;
+    background-image: url(assets/noun-japan-3661384.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px;
+    color: rgb(255, 255, 255);
 }

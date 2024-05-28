@@ -20,8 +20,8 @@ function App() {
       </ul>
     </nav>
     <main className="main-container">
-      <h1 className='main-text'>Front-end Web Developer</h1>
-      <h3 className="main-text2">My name is Nori Terada, I like to make websites</h3>
+      <h1 className='main-text'>Front-end Web Developer.</h1>
+      <h3 className="main-text2">Nori Terada</h3>
       </main>
       <section className='about-section'>
         <div>

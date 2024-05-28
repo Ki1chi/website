@@ -20,10 +20,14 @@ function App() {
       </ul>
     </nav>
     <main className="main-container">
-      {/* <h3 className="main-text">Hey, I am</h3> */}
-      <h1 className='name'>Front-end Web Developer</h1>
-      <h3 className="main-text">My name is Nori, I like to make websites</h3>
+      <h1 className='main-text'>Front-end Web Developer</h1>
+      <h3 className="main-text2">My name is Nori Terada, I like to make websites</h3>
       </main>
+      <section className='about-section'>
+        <div>
+          <h1>hello</h1>
+        </div>
+      </section>
     </>
   )
 }

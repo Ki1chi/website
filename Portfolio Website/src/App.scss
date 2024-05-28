@@ -94,10 +94,11 @@
 .about-section {
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
-    grid-template-rows: 10vh 10vh;
+    grid-template-rows: auto;
     color: white;
     font-size: .8rem;
     column-gap: 50px;
+    row-gap: 20px;
 }
 .item-1 {
     grid-row: 1/2;

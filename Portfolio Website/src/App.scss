@@ -84,16 +84,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.about-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #121212;
+}
 .about-section {
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
-    grid-template-rows: 50vh 1px;
-    height: 100vh;
-    background: #121212;
+    grid-template-rows: 10vh 10vh;
     color: white;
-    justify-content: center;
-    align-items: center;
     font-size: .8rem;
     column-gap: 50px;
 }
@@ -130,9 +132,15 @@
     grid-column: 3/4;
     font-size: 1.2rem;
 }
-// .projects-section {
-     // background-image: url(assets/redd-f-53JzXALAHoM-unsplash.jpg);
-// }
+.project-section {
+    height: 100vh;
+    background-image: url(assets/redd-f-53JzXALAHoM-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+}
 
 @media only screen and (max-width: 850px) {
     .main-text {
@@ -144,5 +152,8 @@
     .nav-bar {
         font-size: 1.1rem;
         transform: translateY(0px);
+    }
+    .about-section {
+        
     }
 }

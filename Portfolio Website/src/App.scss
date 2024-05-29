@@ -24,7 +24,6 @@
     justify-content: center;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
 }
 
 @keyframes fadeIn {
@@ -42,23 +41,14 @@
     display: flex;
     flex-direction: column;
     width: 60vw;
-    height: 80vh;
-    margin-top: 20vh;
-}
-.item-container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    width: 40vw;
+    height: 60vh;
 }
 .main-text {
     font-size: 4rem;
     color: rgb(219, 219, 219);
     animation: fadeIn 1.5s;
     letter-spacing: -3px;
-    width: 40vw;
+    width: 30vw;
 }
 .main-text2 {
     margin-top: 70px;
@@ -66,30 +56,8 @@
     font-size: 1.8rem;
     color: white;
     animation: fadeIn 1.5s 1s both;
-    width: 40vw;
-    grid-column: 2/3;
-    grid-row: 2/3;
 }
 
-.current-project {
-    text-align: center;
-    height: 60vh;
-    width: 22vw;
-    background: url(assets/nadezhda-nikolaenko-UONij8U_oVc-unsplash.jpg);
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: black solid 5px;
-    border-radius: 5px;
-}
-.current-project-header {
-    height: 5vh;
-    width: 22vw;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
 .nav-container{
     position: fixed;
     height: 7vh;
@@ -109,6 +77,7 @@
 }
 .logo-container {
     width: 55vw;
+    margin-right: 20px;
 }
 .logo {
     width: 45px;
@@ -187,20 +156,18 @@
     }
     .nav-bar {
         font-size: 1.1rem;
-        transform: translateY(0px);
+        gap: 3vw;
+        margin-right: 10vw;
+    }
+    .logo {
+        margin-left: 10px;
     }
     .about-section {
         
     }
+    .bg-image {
+        background-position: right;
+    }
+}
 
 
-@media only screen and (max-width: 1000px) {
-    .current-project {
-        display: none;
-    }
-    .current-project-header {
-        display: none;
-    }
-    
-}
-}

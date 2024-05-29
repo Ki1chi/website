@@ -20,10 +20,6 @@ function App() {
       </ul>
     </nav>
     <main className="main-container">
-      <div className="item-container2">
-      <h1 className='current-project-header'>Current Project</h1>
-      <div className='current-project'></div>
-      </div>
       <div className="item-container">
       <h1 className='main-text'>Front-end Web Developer.</h1>
       <h3 className="main-text2">Nori Terada</h3>

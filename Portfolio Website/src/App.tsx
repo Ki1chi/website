@@ -23,6 +23,7 @@ function App() {
       <div className="item-container">
       <h1 className='main-text'>Front-end Web Developer.</h1>
       <h3 className="main-text2">Nori Terada</h3>
+      {/* <button className='projects-button'>Projects</button> */}
       </div>
       </main>
       <section className='project-section'>

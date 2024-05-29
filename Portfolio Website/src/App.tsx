@@ -14,15 +14,25 @@ function App() {
       </div>
       <ul className='nav-bar'>
         <li>Home</li>
-        <li>About</li>
         <li>Projects</li>
+        <li>About</li>
         <li>Contact</li>
       </ul>
     </nav>
     <main className="main-container">
+      <div className="item-container2">
+      <h1 className='current-project-header'>Current Project</h1>
+      <div className='current-project'></div>
+      </div>
+      <div className="item-container">
       <h1 className='main-text'>Front-end Web Developer.</h1>
       <h3 className="main-text2">Nori Terada</h3>
+      </div>
       </main>
+      <section className='project-section'>
+          <h3>here are some of the following technologies I have utilized.</h3>
+          <h3>projects</h3>
+      </section>
       <section className='about-section-container'>
         <div className='about-section'>
           <h1 className='item-3'>About me</h1>
@@ -32,10 +42,6 @@ function App() {
           <h1 className='item-5'>My Philosopy</h1>
           <h3 className='item-6'>I believe in continuously learning. I like staying updated with the latest technologies and trends. My self-taught background has given me many opportunities to seek out such technologies. I believe being self-taught has instilled in me a strong problem-solving mindset and the ability to adapt to many new challenges quickly.</h3> 
           </div>
-      </section>
-      <section className='project-section'>
-          <h3>here are some of the following technologies I have utilized.</h3>
-          <h3>projects</h3>
       </section>
       {/* <h3>contact</h3> */}
     </>

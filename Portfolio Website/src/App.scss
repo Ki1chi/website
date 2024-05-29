@@ -43,7 +43,7 @@
     width: 60vw;
     height: 60vh;
     margin-top: 5vh;
-    color: #c7c7c7;
+    color: #f0f0f0;
 }
 .main-text {
     font-size: 4rem;
@@ -77,7 +77,12 @@
     list-style: none;
     font-size: 1.3rem;
     margin: 20px;
-    color: rgb(196, 196, 196);
+    color: #f0f0f0;
+}
+
+.nav-bar li:hover {
+    border-bottom: #333 solid 1px;
+    cursor: pointer;
 }
 .logo-container {
     width: 55vw;
@@ -91,6 +96,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.logo:hover {
+    cursor: pointer;
+}
 .about-section-container{
     display: flex;
     align-items: center;
@@ -100,7 +108,7 @@
 }
 .about-section {
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-columns: 25vw 25vw 25vw;
     grid-template-rows: auto;
     color: white;
     font-size: .8rem;
@@ -151,13 +159,14 @@
     font-size: 1.2rem;
 }
 .project-section {
+    z-index: -2;
     height: 100vh;
-    background-image: url(assets/redd-f-53JzXALAHoM-unsplash.jpg);
+    background-image: url(assets/evgeny-lazarenko-8HknSpvc1CU-unsplash.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(60%);
+    filter: brightness(55%);
 }
 
 

@@ -27,8 +27,14 @@ function App() {
       </div>
       </main>
       <section className='project-section'>
+          <div className='projects'>
+            <h3>projects</h3>
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </div>
           <h3>here are some of the following technologies I have utilized.</h3>
-          <h3>projects</h3>
       </section>
       <section className='about-section-container'>
         <div className='about-section'>

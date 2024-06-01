@@ -42,7 +42,7 @@
     flex-direction: column;
     width: 60vw;
     height: 60vh;
-    margin-top: 5vh;
+    margin-top: 6vh;
     color: #f0f0f0;
 }
 .main-text {
@@ -169,6 +169,26 @@
     filter: brightness(55%);
 }
 
+
+.projects > * {
+    width: 20vw;
+    height: 20vh;
+}
+.image-1{
+    content:url(../src/assets/calc.png);
+}
+.image-2 {
+    content:url(../src/assets/library.png);
+}
+.image-3 {
+    content:url(../src/assets/sketch.png);
+}
+.image-4 {
+    content:url(../src/assets/tic.png);
+}
+.image-5 {
+    content:url(../src/assets/memory.png);
+}
 
 @media only screen and (max-width: 850px) {
     .main-text {

@@ -27,13 +27,14 @@ function App() {
       </div>
       </main>
       <section className='project-section'>
-          <div className='projects'>
-            <h3>projects</h3>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-          </div>
+        <h3 className='project-text'>projects</h3>
+        <div className='projects'>
+          <img  alt="" className='image-1'/>
+          <img  alt="" className='image-2'/>
+          <img  alt="" className='image-3'/>
+          <img  alt="" className='image-4'/>
+          <img  alt="" className='image-5'/>
+        </div>
           <h3>here are some of the following technologies I have utilized.</h3>
       </section>
       <section className='about-section-container'>

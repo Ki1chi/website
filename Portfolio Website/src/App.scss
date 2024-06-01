@@ -14,7 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(55%);
+    filter:brightness(40%)
 }
 
 .main-container {
@@ -43,7 +43,7 @@
     width: 60vw;
     height: 60vh;
     margin-top: 6vh;
-    color: #f0f0f0;
+    color: #fff;
 }
 .main-text {
     font-size: 4rem;
@@ -77,7 +77,7 @@
     list-style: none;
     font-size: 1.1rem;
     margin: 20px;
-    color: #d1d1d1;
+    color: #fff;
 }
 
 .nav-bar li:hover {
@@ -158,21 +158,36 @@
     grid-column: 3/4;
     font-size: 1.2rem;
 }
-.project-section {
-    z-index: -2;
+.project-section{
+    z-index: -1;
     height: 100vh;
-    background-image: url(assets/evgeny-lazarenko-8HknSpvc1CU-unsplash.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: brightness(55%);
+    background: #f2f2f2;
 }
 
-
+.project-text {
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: #f2f2f2;
+}
 .projects > * {
-    width: 20vw;
-    height: 20vh;
+    border: solid black 3px;
+    border-radius: 10px;
+    min-width: 25vw;
+    max-height: 25vh;
+}
+.projects {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 .image-1{
     content:url(../src/assets/calc.png);

@@ -27,7 +27,7 @@ function App() {
       </div>
       </main>
       <section className='project-section'>
-        <h3 className='project-text'>projects</h3>
+        <h3 className='project-text'>Projects</h3>
         <div className='projects'>
           <img  alt="" className='image-1'/>
           <img  alt="" className='image-2'/>
@@ -35,7 +35,7 @@ function App() {
           <img  alt="" className='image-4'/>
           <img  alt="" className='image-5'/>
         </div>
-          <h3>here are some of the following technologies I have utilized.</h3>
+          {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>
       <section className='about-section-container'>
         <div className='about-section'>

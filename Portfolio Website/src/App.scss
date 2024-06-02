@@ -104,7 +104,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #333;
+    background: #222;
 }
 .about-section {
     display: grid;
@@ -161,7 +161,8 @@
 .project-section{
     z-index: -1;
     height: 100vh;
-    background: #f2f2f2;
+    background-image: url(assets/nice_snow.webp);
+    filter: brightness(95%);
 }
 
 .project-text {
@@ -171,7 +172,6 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    background: #f2f2f2;
 }
 .projects > * {
     border: solid black 3px;

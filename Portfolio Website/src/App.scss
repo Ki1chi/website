@@ -173,37 +173,41 @@
     align-items: center;
     font-size: 2rem;
 }
+
 .projects > * {
-    display: block;
     border: solid black 3px;
     border-radius: 10px;
     min-width: 25vw;
     max-height: 25vh;
 }
+
 .projects {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20vh;
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    margin-top: 20vh;
+    justify-content: center;
+    gap: 10px;
+    grid-template-areas: " a a b b c c "
+                         " . d d e e . ";
 }
 .image-1{
     content:url(../src/assets/calc.png);
+    grid-area: a
 }
 .image-2 {
     content:url(../src/assets/library.png);
+    grid-area: b
 }
 .image-3 {
     content:url(../src/assets/sketch.png);
+    grid-area: c
 }
 .image-4 {
     content:url(../src/assets/tic.png);
+    grid-area: d
 }
 .image-5 {
     content:url(../src/assets/memory.png);
+    grid-area: e
 }
 
 @media only screen and (max-width: 850px) {

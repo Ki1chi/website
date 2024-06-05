@@ -197,8 +197,8 @@
 
 .projects > * {
     box-shadow: 4px 4px 5px #00ccff;
-    min-width: 30vw;
-    max-height: 30vh;
+    width: 30vw;
+    height: 30vh;
     border-radius: 15px;
     filter: brightness(80%);
 }
@@ -243,11 +243,17 @@
         height: 130vh;
     }
     .projects > * {
-        height: 27vh;
-        width: 35vw;
+        max-height: 25vh;
+        min-width: 40vw;
     }
-
 }
+@media only screen and (max-width: 1200px) { 
+    .projects > * {
+        max-height: 20vh;
+        min-width: 35vw;
+    }
+}
+
 
 @media only screen and (max-width: 850px) {
     .main-text {
@@ -280,10 +286,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 5vh;
     }
     .projects > * {
-        height: 30vh;
-        width: 60vw;
+        min-height: 25vh;
+        width: 40vw;
     }
 }
 

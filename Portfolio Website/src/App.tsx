@@ -2,6 +2,9 @@
 import './App.scss'
 
 function App() {
+  function Open () {
+
+  }
 
 
 
@@ -29,11 +32,21 @@ function App() {
       <section className='project-section'>
         <h3 className='project-text'>Projects</h3>
         <div className='projects'>
-          <img  alt="" className='image-1'/>
-          <img  alt="" className='image-2'/>
-          <img  alt="" className='image-3'/>
-          <img  alt="" className='image-4'/>
-          <img  alt="" className='image-5'/>
+          <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1'>
+            <img  alt="project-1" />
+          </a>
+          <a href="https://luxury-haupia-146997.netlify.app/" target="_blank" className='image-2'>
+            <img  alt="project-1" />
+          </a>
+          <a href="https://sage-phoenix-8ffbd1.netlify.app/" target="_blank" className='image-3'>
+            <img  alt="project-3" />
+          </a>
+          <a href="https://relaxed-starship-6d23fe.netlify.app/" target="_blank" className='image-4'>
+            <img  alt="project-4" />
+          </a>
+          <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" className='image-5'>
+            <img  alt="project-5" />
+          </a>
         </div>
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>

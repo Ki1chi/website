@@ -1,10 +1,12 @@
 // import { useState } from 'react'
+import { useRef } from 'react';
 import './App.scss'
 
 function App() {
-  function Open () {
-
-  }
+  const projectRef = useRef<HTMLDivElement | null>(null);
+  const homeRef = useRef<HTMLDivElement | null>(null);
+  const aboutRef = useRef<HTMLDivElement | null>(null);
+  const contactRef = useRef<HTMLDivElement | null>(null);
 
 
 
@@ -12,25 +14,47 @@ function App() {
     <>
     <img className="bg-image"></img>
     <nav className='nav-container'>
-      <div className='logo-container'>
+      <div className='logo-container' 
+        onClick={() =>{
+            homeRef.current?.scrollIntoView({
+              behavior:'smooth'
+            })
+          }}>
         <div className='logo'></div>
       </div>
-      <ul className='nav-bar'>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>About</li>
+      <ul className='nav-bar' >
+        <li
+        onClick={() =>{
+          homeRef.current?.scrollIntoView({
+            behavior:'smooth'
+          })
+        }}
+        >Home</li>
+        <li  
+          onClick={() =>{
+            projectRef.current?.scrollIntoView({
+              behavior:'smooth'
+            })
+          }}
+        >Projects</li>
+        <li
+        onClick={() =>{
+          aboutRef.current?.scrollIntoView({
+            behavior:'smooth'
+          })
+        }}
+        >About</li>
         <li>Contact</li>
       </ul>
     </nav>
-    <main className="main-container">
+    <main ref={homeRef} className="main-container" id='main'>
       <div className="item-container">
       <h1 className='main-text'>Front-end Web Developer.</h1>
       <h3 className="main-text2">Nori Terada</h3>
-      {/* <button className='projects-button'>Projects</button> */}
       </div>
       </main>
-      <section className='project-section'>
-        <h3 className='project-text'>Projects</h3>
+      <section ref={projectRef}className='project-section' id='projects'>
+        <h3 className='project-text'>Latest<span className='text'>Projects</span></h3>
         <div className='projects'>
           <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1'>
             <img  alt="project-1" />
@@ -50,7 +74,7 @@ function App() {
         </div>
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>
-      <section className='about-section-container'>
+      <section className='about-section-container' id='about' ref={aboutRef}>
         <div className='about-section'>
           <h1 className='item-3'>About me</h1>
           <h3 className='item-4'> Hello! I'm Nori Terada, a passionate self-taught developer with a knack for creating visually appealing and user-friendly websites. My journey into web development began with computers. A few years ago I got curious on how websites work, which quickly evolved into my passion and hopefully a career.  </h3>

@@ -56,11 +56,18 @@
     letter-spacing: -1px;
     font-size: 1.8rem;
     animation: fadeIn 1.2s 1s both;
+    color: #fff;
 }
 .projects-button {
     margin-top: 30px;
     height: 25px;
     width: 10vw;
+}
+
+.text {
+    color: #00ccff;
+    margin-left: 15px;
+    text-shadow: 2px 2px 2px #c4f3ff;
 }
 .nav-container{
     position: fixed;
@@ -117,7 +124,7 @@
     color: #c7c7c7;;
 }
 .item-1 {
-    color: #fa2626;
+    color: #00ccff;
     font-style: italic;
     grid-row: 1/2;
     grid-column: 1/2;
@@ -131,7 +138,7 @@
     font-size: 1.2rem;
 }
 .item-3 {
-    color: #fa2626;
+    color: #00ccff;
     font-style: italic;
     font-size: 2rem;
     grid-row: 1/2;
@@ -145,7 +152,7 @@
     font-size: 1.2rem;
 }
 .item-5 {
-    color: #fa2626;
+    color: #00ccff;
     font-style: italic;
     font-size: 2rem;
     grid-row: 1/2;
@@ -171,24 +178,27 @@
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    color: #fa2626;
+    color: #fff;
 }
 
 .projects > * {
-    border: solid #fa2626 3px;
+    box-shadow: 4px 4px 5px #00ccff;
     min-width: 30vw;
     max-height: 30vh;
+    border-radius: 15px;
+    filter: brightness(80%);
 }
 
 .projects {
     display: grid;
     margin-top: 20vh;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     grid-template-areas: " a a b b c c "
                          " . d d e e . ";
 }
 .image-1{
+    filter:brightness(90%);
     content:url(../src/assets/calc.png);
     grid-area: a
 }
@@ -219,9 +229,10 @@
         height: 130vh;
     }
     .projects > * {
-        height: 25vh;
-        width: 42vw;
+        height: 27vh;
+        width: 35vw;
     }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -249,7 +260,7 @@
         background-position: right;
     }
     .project-section {
-        height: 180vh;
+        height: 195vh;
     }
     .projects {
         display: flex;
@@ -257,11 +268,8 @@
         align-items: center;
     }
     .projects > * {
-        width: 70vw;
+        height: 30vh;
+        width: 60vw;
     }
 }
 
-
-@media only screen and (max-width: 1600px)  { 
-
-}

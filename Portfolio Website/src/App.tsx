@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 import { useRef } from 'react';
 import './App.scss'
 
@@ -7,8 +7,6 @@ function App() {
   const homeRef = useRef<HTMLDivElement | null>(null);
   const aboutRef = useRef<HTMLDivElement | null>(null);
   const contactRef = useRef<HTMLDivElement | null>(null);
-
-
 
   return (
     <>
@@ -53,7 +51,7 @@ function App() {
       <h3 className="main-text2">Nori Terada</h3>
       </div>
       </main>
-      <section ref={projectRef}className='project-section' id='projects'>
+      <section ref={projectRef} className='project-section' id='projects'>
         <h3 className='project-text'>Latest<span className='text'>Projects</span></h3>
         <div className='projects'>
           <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1'>

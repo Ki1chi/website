@@ -244,13 +244,13 @@
     }
     .projects > * {
         max-height: 25vh;
-        min-width: 40vw;
+        min-width: 30vw;
     }
 }
-@media only screen and (max-width: 1200px) { 
+@media only screen and (max-width: 1300px) { 
     .projects > * {
-        max-height: 20vh;
-        min-width: 35vw;
+        max-height: 18vh;
+        max-width: 30vw;
     }
 }
 
@@ -290,7 +290,7 @@
     }
     .projects > * {
         min-height: 25vh;
-        width: 40vw;
+        min-width: 40vw;
     }
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import './App.scss'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
               behavior:'smooth'
             })
           }}>
-        <div className='logo'></div>
+        <div className='logo'>Nori <span className='name'>Terada</span></div>
       </div>
       <ul className='nav-bar' >
         <li
@@ -72,10 +72,15 @@ function App() {
         </div>
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>
+      <section>
+        <div className='technologies'>
+          hello
+        </div>
+      </section>
       <section className='about-section-container' id='about' ref={aboutRef}>
         <div className='about-section'>
           <h1 className='item-3'>About me</h1>
-          <h3 className='item-4'> Hello! I'm Nori Terada, a passionate self-taught developer with a knack for creating visually appealing and user-friendly websites. My journey into web development began with computers. A few years ago I got curious on how websites work, which quickly evolved into my passion and hopefully a career.  </h3>
+          <h3 className='item-4'> Hello. I'm Nori Terada, a passionate self-taught developer with a knack for creating visually appealing and user-friendly websites. My journey into web development began with computers. A few years ago I got curious on how websites work, which quickly evolved into my passion and hopefully a career.  </h3>
           <h1 className='item-1'>My Journey</h1>
           <h3 className='item-2'> Without a formal background in computer science, I took the plunge into coding by using online resources, tutorials, and the passion to learn. I started with HTML and CSS, applying as much as I could learn to build many websites. As I got the hang of those two I ventured into Javascript to make a truly interactive experience.</h3>
           <h1 className='item-5'>My Philosopy</h1>

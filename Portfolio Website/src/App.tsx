@@ -73,8 +73,18 @@ function App() {
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>
       <section>
-        <div className='technologies'>
-          hello
+        <div className='tech-text'>Technologies</div>
+        <div className='tech-container'>
+            <div className='technologies'>
+            <div className='tech-1'></div>
+            <div className='tech-2'></div>
+            <div className='tech-3'></div>
+            <div className='tech-4'></div>
+            <div className='tech-5'></div>
+            <div className='tech-6'></div>
+            <div className='tech-7'></div>
+            <div className='tech-8'></div>
+            </div>
         </div>
       </section>
       <section className='about-section-container' id='about' ref={aboutRef}>

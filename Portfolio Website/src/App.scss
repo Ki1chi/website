@@ -231,10 +231,51 @@
     content:url(../src/assets/memory.png);
     grid-area: e
 }
-.technologies {
+
+.tech-container {
     height: 60vh;
+    width: 100vw;
     background: #111;
-    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.technologies {
+    display: flex;
+    gap: 15px;
+    width: 70vw;
+}
+.tech-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #111;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.technologies > * {
+    margin-top: 5vh;
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tech-1 {
+    background-image: url(../src/assets/icons/html-5-svgrepo-com.svg);
+}
+.tech-2 {
+    background-image: url(../src/assets/icons/css-3-svgrepo-com.svg);
+}
+.tech-3 {
+    background-image: url(../src/assets/icons/javascript-svgrepo-com.svg);
+}
+.tech-4 {
+    background-image: url(../src/assets/icons/react-svgrepo-com.svg);
+}
+.tech-5 {
+    background-image: url(../src/assets/icons/scss2-svgrepo-com.svg);
 }
 
 @media only screen and (max-width: 1600px)  {

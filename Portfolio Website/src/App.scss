@@ -84,6 +84,7 @@
     text-shadow: 2px 2px 2px #c4f3ff;
 }
 .nav-container{
+    z-index: 3;
     position: fixed;
     height: 7vh;
     width: 100vw;
@@ -91,6 +92,7 @@
     justify-content: center;
 }
 .nav-bar {
+    z-index: 3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 35vw;
     display: flex;
@@ -180,7 +182,7 @@
     font-size: 1.2rem;
 }
 .project-section{
-    z-index: -1;
+    z-index: -3;
     height: 100vh;
     background: #111;
 }
@@ -196,6 +198,7 @@
 }
 
 .projects > * {
+    z-index: 1;
     box-shadow: 4px 4px 5px #00ccff;
     width: 30vw;
     height: 30vh;
@@ -204,6 +207,7 @@
 }
 
 .projects {
+    z-index: 2;
     display: grid;
     margin-top: 20vh;
     justify-content: center;
@@ -278,7 +282,7 @@
     }
     .bg-image {
         background-position: right;
-    }
+    }npm run dev
     .project-section {
         height: 195vh;
     }

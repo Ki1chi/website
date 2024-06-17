@@ -18,7 +18,7 @@ function App() {
               behavior:'smooth'
             })
           }}>
-        <div className='logo'>Nori <span className='name'>Terada</span></div>
+        <div className='logo'>Nori Terada</div>
       </div>
       <ul className='nav-bar' >
         <li

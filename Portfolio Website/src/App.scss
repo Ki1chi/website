@@ -260,6 +260,7 @@
     font-weight: bolder;
 }
 .technologies > * {
+    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     margin-top: 5vh;
     width: 90px;
@@ -270,6 +271,8 @@
 }
 .tech-1 {
     background-image: url(../src/assets/icons/html-5-svgrepo-com.svg);
+}
+.tech-1:hover {
 }
 .tech-2 {
     background-image: url(../src/assets/icons/css-3-svgrepo-com.svg);
@@ -307,6 +310,30 @@
 .tech-13 {
     background-image: url(../src/assets/icons/vscode-svgrepo-com.svg);
 }
+.skills {
+    display: flex;
+    justify-content: center;
+    color: #00ccff;
+    background: #111;
+    height: 15vh;
+    align-items: center;
+}
+.skill-list{
+    font-size: 1.2rem;
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.skill-list > * {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 27px;
+    border: solid #00ccff 2px;
+    border-radius: 10px;
+}
 
 @media only screen and (max-width: 1600px)  {
     .projects {
@@ -324,6 +351,9 @@
     .technologies {
         flex-wrap: wrap;
         height: 40vh;
+    }
+    .skill-list {
+        flex-wrap: wrap;
     }
 }
 @media only screen and (max-width: 1300px) { 
@@ -376,6 +406,9 @@
     .projects > * {
         min-height: 25vh;
         min-width: 50vw;
+    }
+    .skill-list {
+        margin-top: 70px;
     }
 }
 

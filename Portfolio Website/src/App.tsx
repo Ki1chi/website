@@ -84,6 +84,8 @@ function App() {
             <div className='tech-6'></div>
             <div className='tech-7'></div>
             <div className='tech-8'></div>
+            <div className='tech-9'></div>
+            <div className='tech-10'></div>
             </div>
         </div>
       </section>

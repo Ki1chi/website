@@ -195,7 +195,7 @@
     z-index: 1;
     box-shadow: 4px 4px 5px #00ccff;
     width: 40vw;
-    height: 35vh;
+    height: 40vh;
     border-radius: 15px;
     filter: brightness(95%);
 }
@@ -244,7 +244,7 @@
 }
 
 .technologies {
-    margin-top: 30px;
+    margin-top: 40px;
     height: 30vh;
     display: flex;
     justify-content: center;
@@ -254,6 +254,7 @@
     padding: 20px;
 }
 .tech-text {
+    padding-top: 20vh;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
@@ -324,12 +325,14 @@
 }
 .skill-list{
     font-size: 1.2rem;
-    margin-top: 40px;
+    margin-top: 80px;
     list-style: none;
     display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px
 }
 .skill-list > * {
     padding-left: 12px;
@@ -374,10 +377,14 @@
     .project-section {
         height: 270vh;
     }
+    .tech-container {
+        height: 70vh;
+    }
 }
 
 
 @media only screen and (max-width: 850px) {
+
     .main-text {
         font-size: 2.5rem;
     }
@@ -409,6 +416,9 @@
     }
     .skill-list {
         margin-top: 70px;
+    }
+    .tech-container {
+        height: 70vh;
     }
 }
 

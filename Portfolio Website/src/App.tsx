@@ -58,31 +58,31 @@ function App() {
           <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span> First big project</span></div>
           </div>
           <div>
           <a href="https://luxury-haupia-146997.netlify.app/" target="_blank" className='image-2' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span> First C.R.U.D project </span></div>
           </div>
           <div>
           <a href="https://sage-phoenix-8ffbd1.netlify.app/" target="_blank" className='image-3' id='project-item'>
             <img  alt="project-3" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span> Fun little project</span></div>
           </div>
           <div>
           <a href="https://relaxed-starship-6d23fe.netlify.app/" target="_blank" className='image-4' id='project-item'>
             <img  alt="project-4" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span> Harder project</span></div>
           </div>
           <div>
           <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" className='image-5' id='project-item'>
             <img  alt="project-5" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span> First project made with react </span></div>
           </div>
         </div>
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}

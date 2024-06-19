@@ -54,21 +54,36 @@ function App() {
       <section ref={projectRef} className='project-section' id='projects'>
         <h3 className='project-text' id='text'>Projects</h3>
         <div className='projects'>
-          <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1'>
+          <div>
+          <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <a href="https://luxury-haupia-146997.netlify.app/" target="_blank" className='image-2'>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          </div>
+          <div>
+          <a href="https://luxury-haupia-146997.netlify.app/" target="_blank" className='image-2' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <a href="https://sage-phoenix-8ffbd1.netlify.app/" target="_blank" className='image-3'>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          </div>
+          <div>
+          <a href="https://sage-phoenix-8ffbd1.netlify.app/" target="_blank" className='image-3' id='project-item'>
             <img  alt="project-3" />
           </a>
-          <a href="https://relaxed-starship-6d23fe.netlify.app/" target="_blank" className='image-4'>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          </div>
+          <div>
+          <a href="https://relaxed-starship-6d23fe.netlify.app/" target="_blank" className='image-4' id='project-item'>
             <img  alt="project-4" />
           </a>
-          <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" className='image-5'>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          </div>
+          <div>
+          <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" className='image-5' id='project-item'>
             <img  alt="project-5" />
           </a>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br /> hello</div>
+          </div>
         </div>
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>
@@ -90,7 +105,6 @@ function App() {
             <li>Windows</li>
             <li>VScode</li>
           </ul>
-
         </div>
         <div className='tech-container'>
             <div className='technologies'>

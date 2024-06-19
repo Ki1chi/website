@@ -176,7 +176,7 @@
 }
 .project-section{
     z-index: -3;
-    height: 100vh;
+    height: 180vh;
     background: #111;
 }
 
@@ -191,44 +191,47 @@
     color: #fff;
 }
 
-.projects > * {
+#project-item {
     z-index: 1;
     box-shadow: 4px 4px 5px #00ccff;
-    width: 30vw;
-    height: 30vh;
+    width: 40vw;
+    height: 35vh;
     border-radius: 15px;
-    filter: brightness(80%);
+    filter: brightness(95%);
 }
 
+.project-info {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
 .projects {
     z-index: 2;
-    display: grid;
-    margin-top: 20vh;
     justify-content: center;
-    gap: 25px;
-    grid-template-areas: " a a b b c c "
-                         " . d d e e . ";
+    margin-top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 90vh;
+    align-items: center;
+
 }
 .image-1{
     filter:brightness(90%);
     content:url(../src/assets/calc.png);
-    grid-area: a
 }
 .image-2 {
     content:url(../src/assets/library.png);
-    grid-area: b
 }
 .image-3 {
     content:url(../src/assets/sketch.png);
-    grid-area: c
 }
 .image-4 {
     content:url(../src/assets/tic.png);
-    grid-area: d
 }
 .image-5 {
     content:url(../src/assets/memory.png);
-    grid-area: e
 }
 
 .tech-container {
@@ -239,13 +242,14 @@
     display: flex;
     justify-content: center;
 }
+
 .technologies {
-    margin-top: 10px;
+    margin-top: 30px;
     height: 30vh;
     display: flex;
     justify-content: center;
     gap: 25px;
-    width: 80vw;
+    width: 90vw;
     border-radius: 10px;
     padding: 20px;
 }
@@ -263,8 +267,8 @@
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     margin-top: 5vh;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,17 +340,8 @@
 }
 
 @media only screen and (max-width: 1600px)  {
-    .projects {
-        grid-template-areas: " . a a b b . "
-                             " . d d e e . "
-                             " . . c c . . ";
-    }
     .project-section {
-        height: 130vh;
-    }
-    .projects > * {
-        max-height: 25vh;
-        min-width: 30vw;
+        height: 180vh;
     }
     .technologies {
         flex-wrap: wrap;
@@ -357,15 +352,27 @@
     }
 }
 @media only screen and (max-width: 1300px) { 
-    .project-section {
-        height: 100vh;
+    #proect-item {
+        width: 90vw;
     }
-    .projects > * {
-        max-height: 18vh;
-        max-width: 30vw;
+    .project-section {
+        height: 190vh;
     }
     .technologies {
         height: 55vh;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    #proect-item {
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 950px) {
+    #project-item {
+        width: 80vw;
+    }
+    .project-section {
+        height: 270vh;
     }
 }
 
@@ -395,17 +402,10 @@
         background-position: right;
     }
     .project-section {
-        height: 195vh;
+        height: 270vh;
     }
-    .projects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5vh;
-    }
-    .projects > * {
-        min-height: 25vh;
-        min-width: 50vw;
+    #project-item {
+        width: 80vw;
     }
     .skill-list {
         margin-top: 70px;

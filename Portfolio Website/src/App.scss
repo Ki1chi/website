@@ -95,19 +95,19 @@
     cursor: pointer;
 }
 .logo-container {
-    width: 55vw;
+    width: 60vw;
     margin-right: 20px;
 }
 .logo {
+    letter-spacing: 5px;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    width: 15vw;
+    width: 30vw;
     height: 45px;
     margin-top: 4.5px;
     font-size: 1.8rem;
     color: white;
-    font-weight: bolder;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .logo:hover {
@@ -181,7 +181,8 @@
 }
 
 .project-text {
-    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     top: 10vh;
     display: flex;
@@ -189,6 +190,7 @@
     align-items: center;
     font-size: 2.5rem;
     color: #fff;
+    font-weight: lighter;
 }
 
 #project-item {
@@ -254,15 +256,16 @@
     padding: 20px;
 }
 .tech-text {
+    letter-spacing: 2px;
     padding-top: 20vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     background: #111;
     font-size: 2.5rem;
-    font-weight: bolder;
+    font-weight: lighter;
 }
 .technologies > * {
     font-family: 'Courier New', Courier, monospace;
@@ -322,8 +325,10 @@
     background: #111;
     height: 15vh;
     align-items: center;
+    
 }
 .skill-list{
+    
     font-size: 1.2rem;
     margin-top: 80px;
     list-style: none;

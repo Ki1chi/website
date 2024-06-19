@@ -52,7 +52,7 @@ function App() {
       </div>
       </main>
       <section ref={projectRef} className='project-section' id='projects'>
-        <h3 className='project-text'>Latest<span className='text'>Projects</span></h3>
+        <h3 className='project-text' id='text'>Latest Projects</h3>
         <div className='projects'>
           <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" className='image-1'>
             <img  alt="project-1" />
@@ -73,7 +73,7 @@ function App() {
           {/* <h3>here are some of the following technologies I have utilized.</h3> */}
       </section>
       <section>
-        <div className='tech-text'>Technologies</div>
+        <div className='tech-text' id='text'>My Skills</div>
         <div className='tech-container'>
             <div className='technologies'>
             <div className='tech-1'></div>
@@ -86,6 +86,9 @@ function App() {
             <div className='tech-8'></div>
             <div className='tech-9'></div>
             <div className='tech-10'></div>
+            <div className='tech-11'></div>
+            <div className='tech-12'></div>
+            <div className='tech-13'></div>
             </div>
         </div>
       </section>

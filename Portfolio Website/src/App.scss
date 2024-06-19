@@ -65,10 +65,8 @@
     width: 10vw;
 }
 
-.text {
+#text {
     color: #00ccff;
-    margin-left: 15px;
-    text-shadow: 2px 2px 2px #c4f3ff;
 }
 
 .nav-container{
@@ -116,6 +114,7 @@
     cursor: pointer;
 }
 .about-section-container{
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,6 +122,7 @@
     background: #222;
 }
 .about-section {
+    font-family: 'Courier New', Courier, monospace;
     display: grid;
     grid-template-columns: 25vw 25vw 25vw;
     grid-template-rows: auto;
@@ -181,6 +181,7 @@
 }
 
 .project-text {
+    font-family: 'Courier New', Courier, monospace;
     position: relative;
     top: 10vh;
     display: flex;
@@ -239,23 +240,30 @@
     justify-content: center;
 }
 .technologies {
+    margin-top: 10px;
+    height: 30vh;
     display: flex;
-    gap: 15px;
-    width: 70vw;
+    justify-content: center;
+    gap: 25px;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 20px;
 }
 .tech-text {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     background: #111;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bolder;
 }
 .technologies > * {
+    cursor: pointer;
     margin-top: 5vh;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,6 +283,30 @@
 .tech-5 {
     background-image: url(../src/assets/icons/scss2-svgrepo-com.svg);
 }
+.tech-6 {
+    background-image: url(../src/assets/icons/git-svgrepo-com.svg);
+}
+.tech-7 {
+    background-image: url(../src/assets/icons/macos-svgrepo-com.svg);
+}
+.tech-8 {
+    background-image: url(../src/assets/icons/typescript-official-svgrepo-com.svg);
+}
+.tech-9 {
+    background-image: url(../src/assets/icons/ruby-svgrepo-com.svg);
+}
+.tech-10 {
+    background-image: url(../src/assets/icons/linux-svgrepo-com.svg);
+}
+.tech-11 {
+    background-image: url(../src/assets/icons/wordpress-139-svgrepo-com.svg);
+}
+.tech-12 {
+    background-image: url(../src/assets/icons/windows-svgrepo-com.svg);
+}
+.tech-13 {
+    background-image: url(../src/assets/icons/vscode-svgrepo-com.svg);
+}
 
 @media only screen and (max-width: 1600px)  {
     .projects {
@@ -289,6 +321,10 @@
         max-height: 25vh;
         min-width: 30vw;
     }
+    .technologies {
+        flex-wrap: wrap;
+        height: 40vh;
+    }
 }
 @media only screen and (max-width: 1300px) { 
     .project-section {
@@ -297,6 +333,9 @@
     .projects > * {
         max-height: 18vh;
         max-width: 30vw;
+    }
+    .technologies {
+        height: 55vh;
     }
 }
 

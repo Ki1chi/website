@@ -111,16 +111,16 @@
     margin-right: 20px;
 }
 .logo {
-    letter-spacing: 3px;
     display: flex;
     align-items: center;
     border-radius: 5px;
     width: 30vw;
     height: 45px;
-    margin-top: 4.5px;
+    margin-top: 10px;
     font-size: 1.8rem;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 .logo:hover {
     cursor: pointer;
@@ -271,7 +271,7 @@ a:hover {
     height: 30vh;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
     width: 90vw;
     border-radius: 10px;
     padding: 20px;
@@ -292,11 +292,25 @@ a:hover {
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     margin-top: 5vh;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#technologies {
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-align: center;
+    color: #00ccff;
 }
 .tech-1 {
     background-image: url(../src/assets/icons/html-5-svgrepo-com.svg);
@@ -345,17 +359,7 @@ a:hover {
     height: 15vh;
     align-items: center;
 }
-.skill-list{
-    font-size: 1.2rem;
-    margin-top: 80px;
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px
-}
+
 .skill-list > * {
     padding-left: 12px;
     padding-right: 12px;
@@ -370,7 +374,7 @@ a:hover {
 .contact-section {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 .contact-section > * {
     margin-top: 5vh;
@@ -383,24 +387,24 @@ a:hover {
 }
 .contact-1 {
     background: url(../src/assets/icons/email-1573-svgrepo-com.svg);
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .contact-2 {
     background: url(../src/assets/icons/github-142-svgrepo-com.svg);
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .contact-3 {
     background: url('../src/assets/icons/linkedin-linked-in-svgrepo-com\(1\).svg');
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -414,16 +418,13 @@ a:hover {
         flex-wrap: wrap;
         height: 40vh;
     }
-    .skill-list {
-        flex-wrap: wrap;
-    }
 }
 @media only screen and (max-width: 1300px) { 
     #proect-item {
         width: 90vw;
     }
     .project-section {
-        height: 1900vh;
+        height: 200vh;
     }
     .technologies {
         height: 55vh;
@@ -438,7 +439,7 @@ a:hover {
         width: 60vw;
     }
     .project-section{
-        height: 300vh;
+        height: 280vh;
     }
     .nav-bar {
         gap: 20px;
@@ -450,7 +451,7 @@ a:hover {
         width: 80vw;
     }
     .project-section {
-        height: 300vh;
+        height: 290vh;
     }
     .tech-container {
         height: 70vh;
@@ -484,7 +485,7 @@ a:hover {
         background-position: right;
     }
     .project-section {
-        height: 270vh;
+        height: 280vh;
     }
     #project-item {
         width: 80vw;

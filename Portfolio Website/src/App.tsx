@@ -57,7 +57,7 @@ function App() {
       </div>
       </main>
       <section ref={projectRef} className='project-section' id='projects'>
-        <h3 className='project-text' id='text'>Projects</h3>
+        <h3 className='project-text' id='text'></h3>
         <div className='projects'>
           <div>
           <a href="https://github.com/Ki1chi/calculator.git" target="_blank" className='image-1' id='project-item'>
@@ -92,48 +92,70 @@ function App() {
         </div>
       </section>
       <section>
-        <div className='tech-text' id='text'>My Skills</div>
-        <div className='skills'>
-          <ul className='skill-list'>
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Sass</li>
-            <li>Git</li>
-            <li>MacOS</li>
-            <li>TypeScript</li>
-            <li>Ruby</li>
-            <li>Linux</li>
-            <li>Wordpress</li>
-            <li>Windows</li>
-            <li>VScode</li>
-          </ul>
-        </div>
         <div className='tech-container'>
             <div className='technologies'>
-            <div className='tech-1'></div>
-            <div className='tech-2'></div>
-            <div className='tech-3'></div>
-            <div className='tech-4'></div>
-            <div className='tech-5'></div>
-            <div className='tech-6'></div>
-            <div className='tech-7'></div>
-            <div className='tech-8'></div>
-            <div className='tech-9'></div>
-            <div className='tech-10'></div>
-            <div className='tech-11'></div>
-            <div className='tech-12'></div>
-            <div className='tech-13'></div>
+            <div>
+              <div className='tech-1' id='technologies'></div>
+              <div className='label'>Html</div>
+            </div>
+            <div>
+              <div className='tech-2' id='technologies'></div>
+              <div className='label'>Css</div>
+            </div>
+            <div>
+              <div className='tech-3' id='technologies'></div>
+              <div className='label'>JavaScript</div>
+            </div>
+            <div>
+              <div className='tech-4' id='technologies'></div>
+              <div className='label'>React</div>
+            </div>
+            <div>
+              <div className='tech-5' id='technologies'></div>
+              <div className='label'>Scss</div>
+            </div>
+            <div>
+              <div className='tech-6' id='technologies'></div>
+              <div className='label'>Git</div>
+            </div>
+            <div>
+              <div className='tech-7' id='technologies'></div>
+              <div className='label'>MacOS</div>
+            </div>
+            <div>
+              <div className='tech-8' id='technologies'></div>
+              <div className='label'>TypeScript</div>
+            </div>
+            <div>
+              <div className='tech-9' id='technologies'></div>
+              <div className='label'>Ruby</div>
+            </div>
+            <div>
+              <div className='tech-10' id='technologies'></div>
+              <div className='label'>Linux</div>
+            </div>
+            <div>
+              <div className='tech-11' id='technologies'></div>
+              <div className='label'>Wordpress</div>
+            </div>
+            <div>
+              <div className='tech-12' id='technologies'></div>
+              <div className='label'>Windows</div>
+            </div>
+            <div>
+              <div className='tech-13' id='technologies'></div>
+              <div className='label'>VsCode</div>
+            </div>
+
             </div>
         </div>
       </section>
       <section className='about-section-container' id='about' ref={aboutRef}>
         <div className='about-section'>
-          <h1 className='item-3'>About me</h1>
-          <h3 className='item-4'> Hello. I'm Nori Terada, a passionate self-taught developer with a knack for creating visually appealing and user-friendly websites. My journey into web development began with computers. A few years ago I got curious on how websites work, which quickly evolved into my passion and hopefully a career.  </h3>
-          <h1 className='item-1'>My Journey</h1>
-          <h3 className='item-2'> Without a formal background in computer science, I took the plunge into coding by using online resources, tutorials, and the passion to learn. I started with HTML and CSS, applying as much as I could learn to build many websites. As I got the hang of those two I ventured into Javascript and React to make a truly interactive experience.</h3>
+          <h1 className='item-1'>About me</h1>
+          <h3 className='item-2'> Hello. I'm Nori Terada, a passionate self-taught developer with a knack for creating visually appealing and user-friendly websites. My journey into web development began with computers. A few years ago I got curious on how websites work, which quickly evolved into my passion and hopefully a career.  </h3>
+          <h1 className='item-3'>My Journey</h1>
+          <h3 className='item-4'> Without a formal background in computer science, I took the plunge into coding by using online resources, tutorials, and the passion to learn. I started with HTML and CSS, applying as much as I could learn to build many websites. As I got the hang of those two I ventured into Javascript and React to make a truly interactive experience.</h3>
           <h1 className='item-5'>My Philosopy</h1>
           <h3 className='item-6'>I believe in continuously learning. I like staying updated with the latest technologies. I'm self-taught so learning has given me many opportunities to seek out different technologies. I believe being self-taught has instilled in me a strong problem-solving mindset and the ability to adapt to many new challenges quickly.</h3> 
           </div>

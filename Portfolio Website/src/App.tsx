@@ -42,7 +42,12 @@ function App() {
           })
         }}
         >About</li>
-        <li>Contact</li>
+        <li  
+        onClick={() =>{
+          contactRef.current?.scrollIntoView({
+            behavior:'smooth'
+          })
+        }}>Contact</li>
       </ul>
     </nav>
     <main ref={homeRef} className="main-container" id='main'>
@@ -133,7 +138,14 @@ function App() {
           <h3 className='item-6'>I believe in continuously learning. I like staying updated with the latest technologies. I'm self-taught so learning has given me many opportunities to seek out different technologies. I believe being self-taught has instilled in me a strong problem-solving mindset and the ability to adapt to many new challenges quickly.</h3> 
           </div>
       </section>
-      {/* <h3>contact</h3> */}
+      <section className='contact-section-container' ref={contactRef}>
+        <div className='contact-section'>
+          <h1>Hello</h1>
+        </div>
+      </section>
+      <footer>
+        <h3 className='footer'>&copy; 2024 Nori Terada, All Rights Reserved</h3>
+      </footer>
     </>
   )
 }

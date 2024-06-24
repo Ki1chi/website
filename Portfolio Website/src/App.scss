@@ -26,6 +26,17 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.footer {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    text-align: center;
+    color: #00ccff;
+    font-size: .95rem;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 @keyframes fadeIn {
     0% {
@@ -355,6 +366,10 @@ a:hover {
     height: 27px;
     border: solid #00ccff 2px;
     border-radius: 10px;
+}
+.contact-section-container {
+    height: 25vh;
+    background-color: #222;
 }
 
 @media only screen and (max-width: 1600px)  {

@@ -76,18 +76,19 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    background: #111;
 }
 .nav-bar {
     z-index: 3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 35vw;
+    width: 25vw;
     display: flex;
     justify-content: space-around;
     list-style: none;
     font-size: 1.1rem;
     margin: 20px;
     color: #fff;
-    font-weight: bolder;
+    font-weight: bolder; 
 }
 
 .nav-bar li:hover {
@@ -99,7 +100,7 @@
     margin-right: 20px;
 }
 .logo {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -369,10 +370,16 @@
     .technologies {
         height: 55vh;
     }
+    .nav-bar{
+        gap: 30px;
+    }
 }
 @media only screen and (max-width: 1110px) {
     #proect-item {
         width: 90vw;
+    }
+    .nav-bar {
+        gap: 20px;
     }
 }
 @media only screen and (max-width: 950px) {

@@ -139,8 +139,11 @@ function App() {
           </div>
       </section>
       <section className='contact-section-container' ref={contactRef}>
+        <h1 className='contact-text'>Contact Me</h1>
         <div className='contact-section'>
-          <h1>Hello</h1>
+          <div className='contact-1'></div>
+          <div className='contact-2'></div>
+          <div className='contact-3'></div>
         </div>
       </section>
       <footer>

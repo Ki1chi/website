@@ -301,8 +301,6 @@ a:hover {
 .tech-1 {
     background-image: url(../src/assets/icons/html-5-svgrepo-com.svg);
 }
-.tech-1:hover {
-}
 .tech-2 {
     background-image: url(../src/assets/icons/css-3-svgrepo-com.svg);
 }
@@ -346,10 +344,8 @@ a:hover {
     background: #111;
     height: 15vh;
     align-items: center;
-    
 }
 .skill-list{
-    
     font-size: 1.2rem;
     margin-top: 80px;
     list-style: none;
@@ -371,6 +367,44 @@ a:hover {
     height: 25vh;
     background-color: #222;
 }
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-section > * {
+    margin-top: 5vh;
+}
+.contact-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: #00ccff;
+    text-align: center;
+}
+.contact-1 {
+    background: url(../src/assets/icons/email-1573-svgrepo-com.svg);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-2 {
+    background: url(../src/assets/icons/github-142-svgrepo-com.svg);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-3 {
+    background: url('../src/assets/icons/linkedin-linked-in-svgrepo-com\(1\).svg');
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media only screen and (max-width: 1600px)  {
     .project-section {
@@ -389,7 +423,7 @@ a:hover {
         width: 90vw;
     }
     .project-section {
-        height: 190vh;
+        height: 1900vh;
     }
     .technologies {
         height: 55vh;
@@ -398,20 +432,25 @@ a:hover {
         gap: 30px;
     }
 }
+
 @media only screen and (max-width: 1110px) {
-    #proect-item {
-        width: 90vw;
+    #project-item {
+        width: 60vw;
+    }
+    .project-section{
+        height: 300vh;
     }
     .nav-bar {
         gap: 20px;
     }
 }
+
 @media only screen and (max-width: 950px) {
     #project-item {
         width: 80vw;
     }
     .project-section {
-        height: 270vh;
+        height: 300vh;
     }
     .tech-container {
         height: 70vh;

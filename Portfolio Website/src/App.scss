@@ -58,15 +58,15 @@
     color: #fff;
 }
 .main-text {
-    font-size: 4rem;
+    font-size: 4.5rem;
     animation: fadeIn 1.5s;
     letter-spacing: -3px;
     width: 30vw;
 }
 .main-text2 {
     margin-top: 70px;
-    letter-spacing: -1px;
-    font-size: 1.8rem;
+    letter-spacing: 0px;
+    font-size: 2rem;
     animation: fadeIn 1.2s 1s both;
     color: #fff;
 }
@@ -74,10 +74,6 @@
     margin-top: 30px;
     height: 25px;
     width: 10vw;
-}
-
-#text {
-    color: #00ccff;
 }
 
 .nav-container{
@@ -92,14 +88,14 @@
 .nav-bar {
     z-index: 3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 25vw;
+    width: 50vw;
     display: flex;
     justify-content: space-around;
     list-style: none;
     font-size: 1.1rem;
-    margin: 20px;
     color: #fff;
     font-weight: bolder; 
+    align-items: center;
 }
 
 .nav-bar li:hover {
@@ -108,15 +104,16 @@
 }
 .logo-container {
     width: 60vw;
-    margin-right: 20px;
-}
-.logo {
     display: flex;
     align-items: center;
-    border-radius: 5px;
-    width: 30vw;
+}
+.logo {
+    padding-left: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50vw;
     height: 45px;
-    margin-top: 10px;
     font-size: 1.8rem;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -187,29 +184,17 @@
     font-size: 1.2rem;
 }
 .project-section{
+    padding-top: 20vh;
     z-index: -3;
-    height: 180vh;
+    min-height: 180vh;
     background: #111;
-}
-
-.project-text {
-    letter-spacing: 2px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-    top: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-    color: #fff;
-    font-weight: lighter;
 }
 
 #project-item {
     z-index: 1;
     box-shadow: 4px 4px 5px #00ccff;
-    width: 40vw;
-    height: 40vh;
+    min-width: 40vw;
+    max-height: 40vh;
     border-radius: 15px;
     filter: brightness(90%);
 }
@@ -224,7 +209,6 @@
 .projects {
     z-index: 2;
     justify-content: center;
-    margin-top: 20vh;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -258,12 +242,14 @@ a:hover {
 }
 
 .tech-container {
-    height: 60vh;
-    width: 100vw;
     background: #111;
+    display: block;
+    min-height: 100vh;
+    width: 100vw;
     color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .technologies {
@@ -271,6 +257,7 @@ a:hover {
     height: 30vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     width: 90vw;
     border-radius: 10px;
@@ -351,22 +338,7 @@ a:hover {
 .tech-13 {
     background-image: url(../src/assets/icons/vscode-svgrepo-com.svg);
 }
-.skills {
-    display: flex;
-    justify-content: center;
-    color: #00ccff;
-    background: #111;
-    height: 15vh;
-    align-items: center;
-}
 
-.skill-list > * {
-    padding-left: 12px;
-    padding-right: 12px;
-    height: 27px;
-    border: solid #00ccff 2px;
-    border-radius: 10px;
-}
 .contact-section-container {
     height: 25vh;
     background-color: #222;
@@ -410,91 +382,20 @@ a:hover {
     background-size: cover;
 }
 
-@media only screen and (max-width: 1600px)  {
-    .project-section {
-        height: 180vh;
-    }
-    .technologies {
-        flex-wrap: wrap;
-        height: 40vh;
-    }
-}
-@media only screen and (max-width: 1300px) { 
-    #proect-item {
-        width: 90vw;
-    }
-    .project-section {
-        height: 200vh;
-    }
-    .technologies {
-        height: 55vh;
-    }
-    .nav-bar{
-        gap: 30px;
-    }
-}
 
-@media only screen and (max-width: 1110px) {
-    #project-item {
-        width: 60vw;
-    }
-    .project-section{
-        height: 280vh;
-    }
-    .nav-bar {
-        gap: 20px;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    #project-item {
-        width: 80vw;
-    }
-    .project-section {
-        height: 290vh;
-    }
-    .tech-container {
-        height: 70vh;
-    }
-}
-
-
-@media only screen and (max-width: 850px) {
-
+@media only screen and (max-width: 320px) {
     .main-text {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
     }
     .main-text2 {
         font-size: 1.4rem;
     }
-    .nav-bar {
-        font-size: 1rem;
-        gap: 3vw;
-        margin-right: 10vw;
-    }
     .logo {
-        margin-left: 10px;
+        font-size: .9rem;
     }
-    .about-section {
-        display: flex;
-        flex-direction: column;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .bg-image {
-        background-position: right;
-    }
-    .project-section {
-        height: 280vh;
-    }
-    #project-item {
-        width: 80vw;
-    }
-    .skill-list {
-        margin-top: 70px;
-    }
-    .tech-container {
-        height: 70vh;
+    .nav-bar {
+        justify-content: right;
+        font-size: .6rem;
+        gap: 5px;
     }
 }
-

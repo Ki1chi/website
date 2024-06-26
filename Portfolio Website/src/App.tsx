@@ -146,7 +146,6 @@ function App() {
               <div className='tech-13' id='technologies'></div>
               <div className='label'>VsCode</div>
             </div>
-
             </div>
         </div>
       </section>

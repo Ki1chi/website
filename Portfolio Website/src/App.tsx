@@ -56,7 +56,7 @@ function App() {
       <h3 className="main-text2">Nori Terada</h3>
       </div>
       </main>
-      <section ref={projectRef} className='project-section' id='projects'>
+      <section ref={projectRef} className='project-section'>
         <h3 className='project-text' id='text'></h3>
         <div className='projects'>
           <div>

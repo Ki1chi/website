@@ -185,13 +185,10 @@
 }
 .project-section{
     padding-top: 20vh;
-    z-index: -3;
-    min-height: 180vh;
     background: #111;
 }
 
 #project-item {
-    z-index: 1;
     box-shadow: 4px 4px 5px #00ccff;
     min-width: 40vw;
     max-height: 40vh;
@@ -212,7 +209,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    height: 90vh;
+    height: auto;
     align-items: center;
 }
 a:link {
@@ -243,18 +240,17 @@ a:hover {
 
 .tech-container {
     background: #111;
-    display: block;
-    min-height: 100vh;
     width: 100vw;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10vh;
 }
 
 .technologies {
     margin-top: 40px;
-    height: 30vh;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

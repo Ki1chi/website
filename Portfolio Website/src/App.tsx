@@ -154,7 +154,7 @@ function App() {
           <h1 className='item-1'>About me</h1>
           <h3 className='item-2'> Hello. I'm Nori Terada, a passionate self-taught developer with a knack for creating visually appealing and user-friendly websites. My journey into web development began with computers. A few years ago I got curious on how websites work, which quickly evolved into my passion and hopefully a career.  </h3>
           <h1 className='item-3'>My Journey</h1>
-          <h3 className='item-4'> Without a formal background in computer science, I took the plunge into coding by using online resources, tutorials, and the passion to learn. I started with HTML and CSS, applying as much as I could learn to build many websites. As I got the hang of those two I ventured into Javascript and React to make a truly interactive experience.</h3>
+          <h3 className='item-4'> Without a formal background in computer science, I took a dive into coding by using online resources, tutorials, and the passion to learn. I started with HTML and CSS, applying as much as I could learn to build many websites. As I got the hang of those two I ventured into Javascript and React to make a truly interactive experience.</h3>
           <h1 className='item-5'>My Philosopy</h1>
           <h3 className='item-6'>I believe in continuously learning. I like staying updated with the latest technologies. I'm self-taught so learning has given me many opportunities to seek out different technologies. I believe being self-taught has instilled in me a strong problem-solving mindset and the ability to adapt to many new challenges quickly.</h3> 
           </div>

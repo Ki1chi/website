@@ -58,7 +58,7 @@
     color: #fff;
 }
 .main-text {
-    font-size: 4.5rem;
+    font-size: 4rem;
     animation: fadeIn 1.5s;
     letter-spacing: -3px;
     width: 30vw;
@@ -127,10 +127,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 80vh;
+    height: auto;
     background: #222;
+    padding-top: 50px;
 }
 .about-section {
+    height: auto;
     font-family: 'Courier New', Courier, monospace;
     display: grid;
     grid-template-columns: 25vw 25vw 25vw;
@@ -153,7 +156,7 @@
 .item-2 {
     grid-row: 2/3;
     grid-column: 1/2;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .item-3 {
     color: #00ccff;
@@ -167,7 +170,7 @@
 .item-4 {
     grid-row: 2/3;
     grid-column: 2/3;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .item-5 {
     color: #00ccff;
@@ -181,18 +184,20 @@
 .item-6 {
     grid-row: 2/3;
     grid-column: 3/4;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
 .project-section{
     padding-top: 20vh;
     background: #111;
+    width: auto;
 }
 
 #project-item {
     box-shadow: 4px 4px 5px #00ccff;
     min-width: 40vw;
     max-height: 40vh;
-    border-radius: 15px;
+    border-radius: 5px;
     filter: brightness(90%);
 }
 
@@ -204,13 +209,12 @@
     text-align: center;
 }
 .projects {
-    z-index: 2;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 30px;
     height: auto;
-    align-items: center;
 }
 a:link {
     color: white;
@@ -251,11 +255,11 @@ a:hover {
 .technologies {
     margin-top: 40px;
     height: auto;
+    width: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-    width: 90vw;
     border-radius: 10px;
     padding: 20px;
 }
@@ -336,7 +340,7 @@ a:hover {
 }
 
 .contact-section-container {
-    height: 25vh;
+    height: auto;
     background-color: #222;
 }
 .contact-section {
@@ -344,9 +348,14 @@ a:hover {
     justify-content: center;
     gap: 20px;
 }
-.contact-section > * {
-    margin-top: 5vh;
+.contact-section {
+    padding-bottom: 10vh;
 }
+.contact-section > * {
+    margin-top: 10vh;
+    cursor: pointer;
+}
+
 .contact-text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
@@ -379,9 +388,9 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600x) {
     .main-text {
-        font-size: 1.7rem;
+        font-size: .5rem;
     }
     .main-text2 {
         font-size: 1.4rem;

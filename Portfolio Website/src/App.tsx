@@ -63,7 +63,7 @@ function App() {
           <a href="https://github.com/Ki1chi/calculator.git" target="_blank" className='image-1' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br/> First Project with DOM - Calculator<span className='link'>  <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> First DOM Project - Calculator<span className='link'>  <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/libraryproject.git" target="_blank" className='image-2' id='project-item'>

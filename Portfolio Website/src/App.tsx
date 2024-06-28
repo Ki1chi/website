@@ -162,9 +162,10 @@ function App() {
       <section className='contact-section-container' ref={contactRef}>
         <h1 className='contact-text'>Contact Me</h1>
         <div className='contact-section'>
-          <div className='contact-1'></div>
-          <div className='contact-2'></div>
-          <div className='contact-3'></div>
+            <a className='contact-2' href="https://github.com/Ki1chi" target="_blank" >
+            </a>
+            <a className='contact-3' href="https://www.linkedin.com/in/norihito-terada-94b869216?trk=people-guest_people_search-card" target="_blank" >
+            </a>
         </div>
       </section>
       <footer>

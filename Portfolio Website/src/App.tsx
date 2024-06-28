@@ -63,31 +63,31 @@ function App() {
           <a href="https://github.com/Ki1chi/calculator.git" target="_blank" className='image-1' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span className='link'> First Project with DOM - Calculator <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> First Project with DOM - Calculator<span className='link'>  <a href="https://statuesque-empanada-e1ac42.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/libraryproject.git" target="_blank" className='image-2' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span className='link'> First C.R.U.D project - Library <a href="https://luxury-haupia-146997.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a> </span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> First C.R.U.D project - Library <span className='link'> <a href="https://luxury-haupia-146997.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a> </span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/Etch-a-Sketch.git" target="_blank" className='image-3' id='project-item'>
             <img  alt="project-3" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span className='link'> Etch-a-Sketch project <a href="https://sage-phoenix-8ffbd1.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> Etch-a-Sketch project<span className='link'>  <a href="https://sage-phoenix-8ffbd1.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/tictactoe-game.git" target="_blank" className='image-4' id='project-item'>
             <img  alt="project-4" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript <br/> <span className='link'> Tic-Tac-Toe Project <a href="https://relaxed-starship-6d23fe.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript <br/> Tic-Tac-Toe Project<span className='link'>  <a href="https://relaxed-starship-6d23fe.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/memorycard.git" target="_blank" className='image-5' id='project-item'>
             <img  alt="project-5" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript, APis,  & React <br/> <span className='link'> First project made with react <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript, APis,  & React <br/> First project made with react<span className='link'>  <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
         </div>
       </section>

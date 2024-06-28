@@ -34,7 +34,7 @@
     height: 5vh;
     text-align: center;
     color: #00ccff;
-    font-size: .95rem;
+    font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -92,6 +92,7 @@
     color: #fff;
     font-weight: bolder; 
     align-items: center;
+    padding-right: 5vw;
 }
 .nav-bar li {
     border-bottom: transparent solid 1px;
@@ -205,7 +206,7 @@
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
     padding-top: 20px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
     width: auto;
     height: auto;
@@ -286,6 +287,9 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.technology-names {
+    color: #00ccff;
 }
 #technologies {
     width: 80px;
@@ -391,8 +395,9 @@ a:hover {
         font-size: 1.3rem;
     }
     .logo {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: none;
+        width: 40vw;
     }
     .nav-bar {
         font-size: .7rem;
@@ -402,14 +407,13 @@ a:hover {
         font-size: 1rem;
     }
     #project-item {
-        display: absolute;
-        width: 70vw;
+        width: 85vw;
     }
     .project-info {
         font-size: 1rem;
     }
     .nav-bar {
-        padding-right: 10px;
+        padding-right: 15vw;
     }
     .about-section {
         display: flex;
@@ -418,5 +422,8 @@ a:hover {
         margin-left: 5vw;
         margin-right: 5vw;
         padding-bottom: 100px;
+    }
+    .footer {
+        font-size: .7rem;
     }
 }

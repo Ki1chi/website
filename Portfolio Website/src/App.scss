@@ -49,6 +49,7 @@
     }
 }
 
+
 .item-container {
     display: flex;
     flex-direction: column;
@@ -92,7 +93,11 @@
     font-weight: bolder; 
     align-items: center;
 }
-
+.nav-bar li {
+    border-bottom: transparent solid 1px;
+    transition: border-bottom .3s;
+    text-decoration: none;
+}
 .nav-bar li:hover {
     border-bottom: #fff solid 1px;
     cursor: pointer;
@@ -103,7 +108,7 @@
     align-items: center;
 }
 .logo {
-    padding-left: 50px;
+    padding-left: 2.5vw;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -387,10 +392,10 @@ a:hover {
     }
     .logo {
         font-size: 1.2rem;
+        padding: none;
     }
     .nav-bar {
         font-size: .7rem;
-        padding-right: 50px;
         gap: 10px;
     }
     .link {
@@ -400,7 +405,7 @@ a:hover {
         width: 70vw;
     }
     .project-info {
-        font-size: .65rem;
+        font-size: .6rem;
     }
     .about-section {
         display: flex;

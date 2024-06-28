@@ -87,7 +87,7 @@ function App() {
           <a href="https://github.com/Ki1chi/memorycard.git" target="_blank" className='image-5' id='project-item'>
             <img  alt="project-5" />
           </a>
-          <div className='project-info'>Technologies: Html, Css, Javascript, APis,  & React <br/> First project made with react<span className='link'>  <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: Html, Css, Javascript, APis, & React <br/> First React Project<span className='link'>  <a href="https://creative-dasik-9554b0.netlify.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
         </div>
       </section>

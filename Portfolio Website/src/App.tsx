@@ -90,10 +90,10 @@ function App() {
           <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, JavaScript, APis, & React</span> <br/> React Project<span className='link'>  <a href="https://memorycard-ecru.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
-          <a href="https://shop-seven-wheat.vercel.app/home" target="_blank" className='image-6' id='project-item'>
+          <a href="https://github.com/Ki1chi/Shop " target="_blank" className='image-6' id='project-item'>
             <img  alt="project-6" />
           </a>
-          <div className='project-info'>Technologies: <br/><span className='technology-names'>TypeScript, APis, React, $ React-router</span> <br/> React Router Project<span className='link'>  <a href="https://github.com/Ki1chi/Shop" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: <br/><span className='technology-names'>TypeScript, APis, React, $ React-router</span> <br/> React Router Project<span className='link'>  <a href="https://shop-seven-wheat.vercel.app/home" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
         </div>
       </section>

@@ -63,31 +63,37 @@ function App() {
           <a href="https://github.com/Ki1chi/calculator.git" target="_blank" className='image-1' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: <br/> <span className='technology-names'>Html, Css, Javascript</span> <br/> First DOM Project - Calculator<span className='link'>  <a href="https://calculator-sigma-jet.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: <br/> <span className='technology-names'>Html, Css, JavaScript</span> <br/> First DOM Project - Calculator<span className='link'>  <a href="https://calculator-sigma-jet.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/libraryproject.git" target="_blank" className='image-2' id='project-item'>
             <img  alt="project-1" />
           </a>
-          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, Javascript</span> <br/> C.R.U.D project - Library <span className='link'> <a href="https://library-ten-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a> </span></div>
+          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, JavaScript</span> <br/> C.R.U.D project - Library <span className='link'> <a href="https://library-ten-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a> </span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/Etch-a-Sketch.git" target="_blank" className='image-3' id='project-item'>
             <img  alt="project-3" />
           </a>
-          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, Javascript</span> <br/> Etch-a-Sketch project<span className='link'>  <a href="https://etchasketch-woad.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, JavaScript</span> <br/> Etch-a-Sketch project<span className='link'>  <a href="https://etchasketch-woad.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/tictactoe-game.git" target="_blank" className='image-4' id='project-item'>
             <img  alt="project-4" />
           </a>
-          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, Javascript</span> <br/> Tic-Tac-Toe Project<span className='link'>  <a href="https://tictactoegame-rho.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, JavaScript</span> <br/> Tic-Tac-Toe Project<span className='link'>  <a href="https://tictactoegame-rho.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
           <div>
           <a href="https://github.com/Ki1chi/memorycard.git" target="_blank" className='image-5' id='project-item'>
             <img  alt="project-5" />
           </a>
-          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, Javascript, APis, & React</span> <br/> React Project<span className='link'>  <a href="https://memorycard-ecru.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          <div className='project-info'>Technologies: <br/><span className='technology-names'>Html, Css, JavaScript, APis, & React</span> <br/> React Project<span className='link'>  <a href="https://memorycard-ecru.vercel.app/" target="_blank" rel="noopener noreferrer">Example</a></span></div>
+          </div>
+          <div>
+          <a href="https://shop-seven-wheat.vercel.app/home" target="_blank" className='image-6' id='project-item'>
+            <img  alt="project-6" />
+          </a>
+          <div className='project-info'>Technologies: <br/><span className='technology-names'>TypeScript, APis, React, $ React-router</span> <br/> React Router Project<span className='link'>  <a href="https://github.com/Ki1chi/Shop" target="_blank" rel="noopener noreferrer">Example</a></span></div>
           </div>
         </div>
       </section>
